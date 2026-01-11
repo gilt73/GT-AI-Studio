@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+
+# Ignore test files
+index_option1.html
+index_option2.html
+
+# Ignore backup files
+*.bak
+*~

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Font Options</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rubik+Brush&family=Rubik+Marker+Hatch&family=Rubik+Wet+Paint&family=Karantina:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #0f172a;
+            color: white;
+            padding: 40px;
+        }
+
+        .font-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #22d3ee, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text-3xl mb-8 text-gray-400">אפשרויות פונט לכותרת "דייט או חובה"</h1>
+
+    <div class="font-card">
+        <p class="text-sm text-gray-500 mb-2">1. Rubik Wet Paint (מזכיר מברשת רטובה)</p>
+        <h2 class="text-6xl text-gradient" style="font-family: 'Rubik Wet Paint', cursive;">דייט או חובה</h2>
+    </div>
+
+    <div class="font-card">
+        <p class="text-sm text-gray-500 mb-2">2. Rubik Brush (מברשת יבשה)</p>
+        <h2 class="text-6xl text-gradient" style="font-family: 'Rubik Brush', cursive;">דייט או חובה</h2>
+    </div>
+
+    <div class="font-card">
+        <p class="text-sm text-gray-500 mb-2">3. Rubik Marker Hatch (טוש)</p>
+        <h2 class="text-6xl text-gradient" style="font-family: 'Rubik Marker Hatch', cursive;">דייט או חובה</h2>
+    </div>
+
+    <div class="font-card">
+        <p class="text-sm text-gray-500 mb-2">4. Amatic SC (ידני וצר - קלאסי)</p>
+        <h2 class="text-7xl text-gradient font-bold" style="font-family: 'Amatic SC', cursive;">דייט או חובה</h2>
+    </div>
+
+    <div class="font-card">
+        <p class="text-sm text-gray-500 mb-2">5. Karantina (גס ותעשייתי)</p>
+        <h2 class="text-7xl text-gradient" style="font-family: 'Karantina', system-ui;">דייט או חובה</h2>
+    </div>
+</body>
+
+</html>
